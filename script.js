@@ -21,7 +21,7 @@ const ball = {
   size: 10,
 
   //animation
-  speed: 4,
+  speed: 3,
   dx: 4, //movement on x axis
   dy: -4 //move up on x axis
 };

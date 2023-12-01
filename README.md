@@ -2,6 +2,8 @@
 
 This is a simple Breakout game built using HTML, CSS, and JavaScript. The game involves bouncing a ball off a paddle to break bricks and earn points.
 
+[Play the game!](https://sethgonzales.github.io/breakout/)
+
 ## Gameplay Instructions
 
 - **Controls**: Use the left and right arrow keys to move the paddle.

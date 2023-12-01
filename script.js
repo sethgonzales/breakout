@@ -158,7 +158,6 @@ function moveBall() {
   if(ball.y + ball.size > canvas.height) {
     showAllBricks();
     showRestart();
-    score = 0;
     ball.dx = 0;
     ball.dy = 0
     paddle.dx = 0;

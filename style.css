@@ -69,3 +69,16 @@ canvas {
 .rules.show {
   transform: translateX(0);
 }
+
+#canvas-container {
+  position: relative;
+}
+
+#restart-btn {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}

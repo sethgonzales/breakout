@@ -90,7 +90,7 @@ function drawBricks() {
     column.forEach(brick => {
       ctx.beginPath();
       ctx.rect(brick.x, brick.y, brick.w, brick.h);
-      ctx.fillStyle = brick.visible ? '#0095dd' : 'transparent'; //conditional... if the brick is visible, then give color, else make it transparent
+      ctx.fillStyle = brick.visible ? '#000000' : 'transparent'; //conditional... if the brick is visible, then give color, else make it transparent
       ctx.fill();
       ctx.closePath();
     })

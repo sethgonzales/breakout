@@ -22,8 +22,8 @@ const ball = {
 
   //animation
   speed: 3,
-  dx: 4, //movement on x axis
-  dy: -4 //move up on x axis
+  dx: 3, //movement on x axis
+  dy: -3 //move up on x axis
 };
 
 //create paddle props
@@ -64,7 +64,7 @@ console.log(bricks);
 function drawBall() {
   ctx.beginPath();
   ctx.arc(ball.x, ball.y, ball.size, 0, Math.PI * 2); //explains how to draw the ball based on x and y position and size of the ball
-  ctx.fillStyle = '#0095dd';
+  ctx.fillStyle = '#f90000';
   ctx.fill(); //fill color
   ctx.closePath(); //close the path and make the ball.
 }
@@ -73,7 +73,7 @@ function drawBall() {
 function drawPaddle() {
   ctx.beginPath();
   ctx.rect(paddle.x, paddle.y, paddle.w, paddle.h);
-  ctx.fillStyle = '#0095dd';
+  ctx.fillStyle = '#000000';
   ctx.fill(); //fill color
   ctx.closePath();
 }
@@ -195,8 +195,8 @@ function restartGame() {
   ball.y = canvas.height / 2;
   
   // Reset ball speed
-  ball.dx = 4;
-  ball.dy = -4;
+  ball.dx = 3;
+  ball.dy = -3;
 
   // Reset paddle position
   paddle.x = canvas.width / 2 - 40;
@@ -214,8 +214,8 @@ function restartGame() {
   restartBtn.style.display = 'none';
 
   // Resume game
-  ball.dx = 4;
-  ball.dy = -4;
+  ball.dx = 3;
+  ball.dy = -3;
   paddle.dx = 0;
 }
 

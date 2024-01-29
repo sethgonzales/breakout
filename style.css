@@ -29,7 +29,7 @@ canvas {
   cursor: pointer;
   border: 0;
   padding: 10px 20px;
-  background: black;
+  background: #d29a39;
   color: white;
   border-radius: 5px;
 }
@@ -39,7 +39,7 @@ canvas {
 }
 
 .btn:hover {
-  background: #222;
+  background: #cd8406;
 }
 
 .btn:active {
@@ -63,6 +63,7 @@ canvas {
   padding: 20px;
   line-height: 1.5;
   transform: translateX(-400px);
+  z-index: 2;
   transition: transform 1s ease-in-out;
 }
 

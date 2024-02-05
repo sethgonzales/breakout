@@ -64,7 +64,7 @@ console.log(bricks);
 function drawBall() {
   ctx.beginPath();
   ctx.arc(ball.x, ball.y, ball.size, 0, Math.PI * 2); //explains how to draw the ball based on x and y position and size of the ball
-  ctx.fillStyle = '#f90000';
+  ctx.fillStyle = '#000000';
   ctx.fill(); //fill color
   ctx.closePath(); //close the path and make the ball.
 }

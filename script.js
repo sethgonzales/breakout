@@ -38,7 +38,7 @@ const paddle = {
 
 //create brick props
 const brickInfo = {
-  w: 70,
+  w: 69,
   h: 20,
   padding: 10,
 
